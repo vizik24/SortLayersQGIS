@@ -1,3 +1,5 @@
+from qgis.core import QgsProject, QgsLayerTree, QgsLayerTreeGroup, QgsLayerTreeLayer
+
 def reorder_groups(group):
     # Extract subgroups and sort them
     subgroups = []

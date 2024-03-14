@@ -1,3 +1,5 @@
+from qgis.core import QgsProject, QgsLayerTree, QgsLayerTreeGroup, QgsLayerTreeLayer
+
 def sort_groups():
     ''' This function gets the children of the root node in the layer treePosition
         and extracts the group names, then sorts them alphabetically and inserts groups
