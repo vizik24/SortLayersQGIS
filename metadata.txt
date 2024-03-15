@@ -1,0 +1,41 @@
+
+[general]
+name=Sort Layer Tree
+email=max.mycroft@gmail.com
+author=Max Mycroft
+qgisMinimumVersion=3.0
+description=Plugin to sort project groups and layers within them alphabetically
+about= further about info
+version=version 1
+repository=https://github.com/vizik24/SortLayersQGIS
+; end of mandatory metadata
+
+; start of optional metadata
+changelog=The changelog lists the plugin versions
+    and their changes as in the example below:
+    1.0 - First Stable Release
+
+; Tags are in comma separated value format, spaces are allowed within the
+; tag name.
+; Tags should be in English language. Please also check for existing tags and
+; synonyms before creating a new one.
+tags=layer tree, sort, alphabetical
+
+; these metadata can be empty, they will eventually become mandatory.
+homepage=https://www.itopen.it
+icon=icon.jpeg
+
+; experimental flag (applies to the single version)
+experimental=True
+
+; deprecated flag (applies to the whole plugin and not only to the uploaded version)
+deprecated=False
+
+; if empty, qgisMaximumVersion= will be automatically set to major version + .99
+
+; Since QGIS 3.8, a comma separated list of plugins to be installed
+; (or upgraded) can be specified.
+; The example below will try to install (or upgrade) "MyOtherPlugin" version 1.12
+; and any version of "YetAnotherPlugin".
+; Both "MyOtherPlugin" and "YetAnotherPlugin" names come from their own metadata's
+; name field
